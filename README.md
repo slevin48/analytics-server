@@ -23,6 +23,6 @@ You will see the automatic interactive API documentation (provided by Swagger UI
 ![swaggerUI.png](swaggerUI.png)
 
 ## Inspiration
-[https://realpython.com/flask-connexion-rest-api/#demonstration-single-page-application](https://realpython.com/flask-connexion-rest-api/#demonstration-single-page-application)
-[https://medium.com/better-programming/migrate-from-flask-to-fastapi-smoothly-cc4c6c255397](Migrate From Flask to FastAPI Smoothly)
-[https://fastapi.tiangolo.com/advanced/templates/](Jinja Templates for FastAPI)
+* [Python REST APIs With Flask, Connexion, and SQLAlchemy](https://realpython.com/flask-connexion-rest-api/#demonstration-single-page-application)
+* [Migrate From Flask to FastAPI Smoothly](https://medium.com/better-programming/migrate-from-flask-to-fastapi-smoothly-cc4c6c255397)
+* [Jinja Templates for FastAPI](https://fastapi.tiangolo.com/advanced/templates/)
