@@ -2,3 +2,5 @@ flask
 connexion
 hurry.filesize
 pandas
+fastapi
+uvicorn
