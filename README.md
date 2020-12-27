@@ -6,9 +6,9 @@ A REST API to expose datasets with FastAPI
 This is the data manipulation performed by the server:
 ![analytics-server.png](analytics-server.png)
 
-This command starts the server:
+This command starts the server from the /app folder:
 ```
-uvicorn fast:app --reload
+uvicorn main:app --reload
 ```
 
 By default it will run the fastAPI server on port 8000:
@@ -27,13 +27,13 @@ You will see the automatic interactive API documentation (provided by Swagger UI
 Build docker image
 
 ```
-docker build -t myimage .
+docker build -t myfastapiimage .
 ```
 
 start docker container
 
 ```
-docker run -d --name mycontainer -p 8000:80 myimage
+docker run -d --name myfastapicontainer -p 8000:80 myimage
 ```
 
 ## Inspiration
