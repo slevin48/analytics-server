@@ -33,7 +33,7 @@ docker build -t myfastapiimage .
 start docker container
 
 ```
-docker run -d --name myfastapicontainer -p 8000:80 myimage
+docker run -d --name myfastapicontainer -p 8000:80 myfastapiimage
 ```
 
 ## Inspiration
