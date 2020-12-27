@@ -22,7 +22,22 @@ You will see the automatic interactive API documentation (provided by Swagger UI
 
 ![swaggerUI.png](swaggerUI.png)
 
+## Docker deployment
+
+Build docker image
+
+```
+docker build -t myimage .
+```
+
+start docker container
+
+```
+docker run -d --name mycontainer -p 8000:80 myimage
+```
+
 ## Inspiration
 * [Python REST APIs With Flask, Connexion, and SQLAlchemy](https://realpython.com/flask-connexion-rest-api/#demonstration-single-page-application)
 * [Migrate From Flask to FastAPI Smoothly](https://medium.com/better-programming/migrate-from-flask-to-fastapi-smoothly-cc4c6c255397)
 * [Jinja Templates for FastAPI](https://fastapi.tiangolo.com/advanced/templates/)
+* [Deploy FastAPI with Docker](https://fastapi.tiangolo.com/deployment/docker/)

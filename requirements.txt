@@ -4,3 +4,4 @@ hurry.filesize
 pandas
 fastapi
 uvicorn
+aiofiles
