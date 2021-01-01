@@ -27,13 +27,13 @@ You will see the automatic interactive API documentation (provided by Swagger UI
 Build docker image
 
 ```
-docker build -t myfastapiimage .
+docker build -t analytics-server-image .
 ```
 
 start docker container
 
 ```
-docker run -d --name myfastapicontainer -p 8000:80 myfastapiimage
+docker run -d --name analytics-server-container -p 8000:80 myfastapiimage
 ```
 
 ## Inspiration
