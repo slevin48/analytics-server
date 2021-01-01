@@ -33,7 +33,7 @@ docker build -t analytics-server-image .
 start docker container
 
 ```
-docker run -d --name analytics-server-container -p 8000:80 myfastapiimage
+docker run -d --name analytics-server-container -p 8000:80 analytics-server-image
 ```
 
 ## Inspiration
